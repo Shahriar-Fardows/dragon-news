@@ -1,8 +1,9 @@
+import Auth from "./Auth/Auth";
 
 const ThirdCol = () => {
     return (
-        <div>
-            <h1>Hello world</h1>
+        <div className="p-5">
+           <Auth/>
         </div>
     );
 };

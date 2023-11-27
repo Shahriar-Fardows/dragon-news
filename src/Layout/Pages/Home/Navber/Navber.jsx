@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Button } from "@material-tailwind/react";
 
 const Navber = () => {
@@ -47,7 +47,7 @@ const Navber = () => {
                             <li><a>Logout</a></li>
                         </ul>
                     </div>
-                    <a className="btn"><Button>Sign In</Button></a>
+                    <Link className="mx-2"><Button>Sign In</Button></Link>
                 </div>
             </div>
         </div>
