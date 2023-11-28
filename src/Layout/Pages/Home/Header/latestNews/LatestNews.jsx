@@ -10,7 +10,7 @@ const LatestNews = () => {
             <div className="bg-[#F3F3F3] flex p-3 my-5">
                 <Link><Button className=" bg-[#D72050]">Latest</Button></Link>
                 <Marquee>
-                    <h1 className="text-lg">Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...</h1>
+                    <h1 className="text-lg">Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...  Tucker Carlson Swears Vladimir Putin Is Winning The War In Ukraine....</h1>
                 </Marquee>
                 
             </div>
