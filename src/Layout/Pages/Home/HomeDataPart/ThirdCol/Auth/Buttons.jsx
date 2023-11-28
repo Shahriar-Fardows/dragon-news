@@ -1,9 +1,41 @@
-import { Button  } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
+import { useContext } from "react";
+import { Context } from "../../../../../../Context/ShareContext";
 
 const Buttons = () => {
+
+    const { google, gitHub } = useContext(Context)
+
+    const Google = () => {
+        google()
+            .then((result) => {
+                window.location.href = "/";
+                const user = result.user;
+                console.log(user)
+            }).catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage)
+
+            });
+    }
+
+    const GitHub = () => {
+        gitHub()
+            .then((result) => {
+                window.location.href = "/";
+                const user = result.user;
+                console.log(user)
+            }).catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage)
+
+            });
+    }
+
     return (
         <div className="flex flex-col items-center gap-4">
             <Button
+                onClick={Google}
                 size="lg"
                 variant="outlined"
                 color="blue-gray"
@@ -13,6 +45,7 @@ const Buttons = () => {
                 Continue with Google
             </Button>
             <Button
+                onClick={GitHub}
                 size="lg"
                 variant="outlined"
                 color="blue-gray"
