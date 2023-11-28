@@ -1,12 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { Button } from "@material-tailwind/react";
 
 const Navber = () => {
 
     const link = <>
-        <li><NavLink to='/'><h1>Home</h1></NavLink></li>
-        <li><NavLink to='/About'><h1>About</h1></NavLink></li>
-        <li><NavLink to='/Career'><h1>Career</h1></NavLink></li>
+        
     </>
 
     return (
@@ -47,7 +45,7 @@ const Navber = () => {
                             <li><a>Logout</a></li>
                         </ul>
                     </div>
-                    <Link className="mx-2"><Button>Sign In</Button></Link>
+                    <Link to='/login' className="mx-2"><Button>Sign In</Button></Link>
                 </div>
             </div>
         </div>

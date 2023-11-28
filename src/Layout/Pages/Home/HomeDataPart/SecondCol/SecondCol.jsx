@@ -1,8 +1,10 @@
+import AllNews from "./AllNews/AllNews";
 
 const SecondCol = () => {
     return (
         <div>
-            <h1>hello world</h1>
+            
+            <AllNews/>
         </div>
     );
 };
