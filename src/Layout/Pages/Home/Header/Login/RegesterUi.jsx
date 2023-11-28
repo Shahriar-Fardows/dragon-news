@@ -28,7 +28,7 @@ const RegesterUi = () => {
 
        
 
-    }
+    };
 
     return (
         <div className="my-10">
