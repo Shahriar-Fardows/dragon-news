@@ -8,7 +8,7 @@ const LatestNews = () => {
     return (
         <div>
             <div className="bg-[#F3F3F3] flex p-3 my-5">
-                <Link><Button className=" bg-[#D72050]">color red</Button></Link>
+                <Link><Button className=" bg-[#D72050]">Latest</Button></Link>
                 <Marquee>
                     <h1 className="text-lg">Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...</h1>
                 </Marquee>

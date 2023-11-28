@@ -16,5 +16,5 @@ export default withMT({
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),require('flowbite/plugin')],
 });
